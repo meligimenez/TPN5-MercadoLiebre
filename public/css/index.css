@@ -3,9 +3,13 @@ header {
   width: 100%;
 }
 
-.logo {}
+.logo {
+  padding: 20px;
+}
 
 .imagen_logo {}
+
+
 
 .header_buscador {
   padding: 10px;
