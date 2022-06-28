@@ -68,9 +68,17 @@ article {
 
 .main_basado_en_tu_ultima_visita {}
 
-
-
 body {
   margin: 0;
   background-color: rgb(206, 206, 206);
+}
+
+footer {
+  background-color: #fff159;
+}
+
+footer section {
+  text-align: center;
+  padding: 10px;
+
 }
