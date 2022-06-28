@@ -1,31 +1,25 @@
 header {
   background-color: #fff159;
   width: 100%;
-  border: 1px solid darkmagenta;
 }
 
-.logo {
-  border: 1px solid red;
-}
+.logo {}
 
-.imagen_logo {
-  border: 1px solid brown;
-}
+.imagen_logo {}
 
 .header_buscador {
   padding: 10px;
   border: 1px solid yellow;
-  text-align: end;
+  text-align: center;
 
 }
 
 .header_cuotas_sin_tarjeta {
-  border: 1px solid red;
   text-align: center;
 }
 
 nav {
-  border: 1px solid aqua;
+  padding: 10px;
 }
 
 nav a {
@@ -34,7 +28,6 @@ nav a {
 }
 
 main {
-  border: 1px solid seagreen;
   width: 100%;
 }
 
@@ -42,13 +35,35 @@ img {
   width: 100%;
 }
 
+p {
+  font-family: 'Poppins';
+}
+
+.precio_descuento_producto {
+  color: rgb(21, 183, 21);
+}
+
 .nombre_producto {
   font-weight: bold;
 }
 
-.main_basado_en_tu_ultima_visita {
-  border: 1px solid chocolate;
+.precio_producto {
+  font-size: larger;
+  font-weight: lighter;
 }
+
+section {
+  padding: 20px;
+}
+
+article {
+  background-color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.main_basado_en_tu_ultima_visita {}
+
 
 
 body {
