@@ -1,0 +1,57 @@
+header {
+  background-color: #fff159;
+  width: 100%;
+  border: 1px solid darkmagenta;
+}
+
+.logo {
+  border: 1px solid red;
+}
+
+.imagen_logo {
+  border: 1px solid brown;
+}
+
+.header_buscador {
+  padding: 10px;
+  border: 1px solid yellow;
+  text-align: end;
+
+}
+
+.header_cuotas_sin_tarjeta {
+  border: 1px solid red;
+  text-align: center;
+}
+
+nav {
+  border: 1px solid aqua;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  border: 1px solid seagreen;
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+.nombre_producto {
+  font-weight: bold;
+}
+
+.main_basado_en_tu_ultima_visita {
+  border: 1px solid chocolate;
+}
+
+
+body {
+  margin: 0;
+  background-color: rgb(206, 206, 206);
+}
