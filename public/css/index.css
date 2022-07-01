@@ -1,6 +1,21 @@
+@import url(general.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+  margin: 0;
+  background-color: rgb(206, 206, 206);
+  font-family: var(--font);
+}
+
+/* HEADER */
 header {
-  background-color: #fff159;
+  background-color: var(--color-amarillo);
   width: 100%;
+}
+
+header button i {
+  color: var(--color-azul);
 }
 
 .logo {
@@ -10,16 +25,18 @@ header {
 .imagen_logo {}
 
 
+.header__texto {
+  font-size: var(--tamaño-cuerposDeTexto);
+}
 
 .header_buscador {
   padding: 10px;
-  border: 1px solid yellow;
   text-align: center;
-
 }
 
-.header_cuotas_sin_tarjeta {
-  text-align: center;
+ul.header__texto {
+  text-align: left;
+  padding: 0;
 }
 
 nav {
@@ -31,6 +48,30 @@ nav a {
   color: black;
 }
 
+.header_cuotas_sin_tarjeta {
+  text-align: center;
+}
+
+.header__boton__burger-menu {
+  text-align: center;
+}
+
+.header__boton__burger-menu form button {
+  background-color: var(--color-celeste);
+  border: none;
+  font-size: 20px;
+  border-radius: 20%;
+}
+
+.header__boton__burger-menu form button i {
+  color: white;
+  margin: 5px;
+
+
+}
+
+
+/* MAIN */
 main {
   width: 100%;
 }
@@ -39,25 +80,26 @@ img {
   width: 100%;
 }
 
-p {
-  font-family: 'Poppins';
-}
-
 .precio_descuento_producto {
-  color: rgb(21, 183, 21);
-}
-
-.nombre_producto {
-  font-weight: bold;
+  color: var(--color-verde);
+  font-size: var(--tamaño-descuentos);
 }
 
 .precio_producto {
-  font-size: larger;
-  font-weight: lighter;
+  font-size: var(--font-precios);
+}
+
+.nombre_producto {
+  font-size: var(--tamaño-descripciones);
 }
 
 section {
   padding: 20px;
+}
+
+h2 {
+  font-family: var(--font);
+  font-size: var(--tamaño-titulares);
 }
 
 article {
@@ -68,17 +110,29 @@ article {
 
 .main_basado_en_tu_ultima_visita {}
 
-body {
-  margin: 0;
-  background-color: rgb(206, 206, 206);
-}
 
+/* FOOTER */
 footer {
-  background-color: #fff159;
+  background-color: var(--color-amarillo);
+  text-align: center;
+  padding: 20px;
 }
 
-footer section {
-  text-align: center;
-  padding: 10px;
+footer section div {
+  color: var(--color-celeste);
+}
 
+footer section h4 {
+  margin: 0;
+  color: var(--color-grisOscuro);
+}
+
+footer section p {
+  margin: 0;
+  color: var(--color-grisClaro);
+}
+
+.footer_copyrigth {
+  text-align: left;
+  padding: 0;
 }
