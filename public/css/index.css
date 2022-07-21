@@ -43,15 +43,19 @@ ul.header__texto {
 .precio_descuento_producto {
   color: var(--color-verde);
   font-size: var(--tamaño-descuentos);
+  width: 70%;
 }
 
 .precio_producto {
   font-size: var(--font-precios);
+  width: 30%;
+  font-size: var(--tamaño-precios);
 }
 
 .nombre_producto {
   font-size: var(--tamaño-descripciones);
   margin-top: 15px;
+  color: var(--color-grisOscuro);
 }
 
 /* FOOTER */

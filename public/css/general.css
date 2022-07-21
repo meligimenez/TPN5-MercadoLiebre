@@ -24,7 +24,7 @@
 }
 
 body {
-  background-color: rgb(206, 206, 206);
+  background-color: var(--color-grisClaro);
   font-family: var(--font);
 }
 
@@ -76,6 +76,9 @@ article div {
   border-top: 1px solid #ebebeb;
   padding: 15px;
   position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
 }
 
 article div i {
