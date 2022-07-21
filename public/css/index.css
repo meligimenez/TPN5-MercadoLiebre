@@ -1,29 +1,10 @@
 @import url(general.css);
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-
-body {
-  margin: 0;
-  background-color: rgb(206, 206, 206);
-  font-family: var(--font);
-}
-
 /* HEADER */
-header {
-  background-color: var(--color-amarillo);
-  width: 100%;
-}
-
-header button i {
-  color: var(--color-azul);
-}
-
 .logo {
   padding: 20px;
 }
-
-.imagen_logo {}
-
 
 .header__texto {
   font-size: var(--tamaño-cuerposDeTexto);
@@ -37,15 +18,6 @@ header button i {
 ul.header__texto {
   text-align: left;
   padding: 0;
-}
-
-nav {
-  padding: 10px;
-}
-
-nav a {
-  text-decoration: none;
-  color: black;
 }
 
 .header_cuotas_sin_tarjeta {
@@ -66,22 +38,9 @@ nav a {
 .header__boton__burger-menu form button i {
   color: white;
   margin: 5px;
-
-
 }
-
 
 /* MAIN */
-main {
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-img {
-  width: 100%;
-}
-
 .precio_descuento_producto {
   color: var(--color-verde);
   font-size: var(--tamaño-descuentos);
@@ -96,85 +55,36 @@ img {
   margin-top: 15px;
 }
 
-section {
-
-}
-
-h2 {
-  font-family: var(--font);
-  font-size: var(--tamaño-titulares);
-}
-
-article {
-  background-color: white;
-  margin: 10px;
-  box-shadow: 0px 0px 10px rgb(100, 100, 100);
-}
-article div{
-  border-top: 1px solid #ebebeb;
-  padding: 15px;
-}
-
-article div i{
-  color: var(--color-verde);
-  border: 1px solid var(--color-verde);;
-  padding: 15px;
-  border-radius: 50%;
-}
-article div p{
-  margin: 0;
-}
-
-
-.main_basado_en_tu_ultima_visita {}
-
-
 /* FOOTER */
-footer {
-  background-color: var(--color-amarillo);
-  text-align: center;
-  padding: 20px;
-}
-
-footer section div {
-  color: var(--color-celeste);
-}
-
-footer section h4 {
-  margin: 0;
-  color: var(--color-grisOscuro);
-}
-
-footer section p {
-  margin: 0;
-  color: var(--color-grisClaro);
-}
-
 .footer_copyrigth {
   text-align: left;
-  padding: 0;
 }
+
 /*MOBILE*/
 @media (max-width:768px) {
-  .nombre_producto{
+  .nombre_producto {
     display: none;
   }
-  article{
+
+  article {
     box-shadow: none;
   }
-  header ul{
+
+  header ul {
     display: none;
   }
 }
+
 /*TABLET*/
-@media (min-width:768px) and (max-width:1024px){
-  header button{
-    display:none;
+@media (min-width:768px) and (max-width:1024px) {
+  header button {
+    display: none;
   }
 }
+
 /*DESKTOP*/
-@media (min-width:1024px){
-  header button{
-    display:none;
+@media (min-width:1024px) {
+  header button {
+    display: none;
   }
 }

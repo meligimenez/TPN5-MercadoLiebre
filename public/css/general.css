@@ -5,6 +5,7 @@
   --color-grisOscuro: #666;
   --color-grisClaro: #ebebeb;
   --color-verde: #39b54a;
+  --color-blanco: #fff;
 }
 
 :root {
@@ -14,5 +15,88 @@
   --tamaño-precios: 18px;
   --tamaño-descuentos: 16px;
   --tamaño-descripciones: 16px;
+}
 
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(206, 206, 206);
+  font-family: var(--font);
+}
+
+/* HEADER */
+header {
+  background-color: var(--color-amarillo);
+  width: 100%;
+}
+
+header button i {
+  color: var(--color-azul);
+}
+
+nav {
+  padding: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+/* MAIN */
+main {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  width: 100%;
+}
+
+h2 {
+  font-family: var(--font);
+  font-size: var(--tamaño-titulares);
+}
+
+article {
+  background-color: white;
+  margin: 10px;
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+article div {
+  border-top: 1px solid #ebebeb;
+  padding: 15px;
+}
+
+article div i {
+  color: var(--color-verde);
+  border: 1px solid var(--color-verde);
+  ;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+/* FOOTER */
+footer {
+  background-color: var(--color-amarillo);
+  text-align: center;
+  padding: 20px;
+}
+
+footer section div {
+  color: var(--color-celeste);
+}
+
+footer section h4 {
+  color: var(--color-grisOscuro);
+}
+
+footer section p {
+  color: var(--color-grisClaro);
 }
