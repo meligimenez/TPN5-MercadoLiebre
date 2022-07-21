@@ -72,14 +72,22 @@ article {
 article div {
   border-top: 1px solid #ebebeb;
   padding: 15px;
+  position: relative;
 }
 
 article div i {
-  color: var(--color-verde);
+  display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
   border: 1px solid var(--color-verde);
-  ;
-  padding: 15px;
+  background-color: var(--color-blanco);
+  color: var(--color-verde);
   border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
 }
 
 /* FOOTER */
