@@ -1,8 +1,6 @@
 ## Mercado Liebre
 
--Trabajo práctico del curso FormAr
+-Parte 4
 
--Réplica de Mercado Libre modo mobile
+-Hacer responsive la vista usando flexbox.
 
-
-El propósito de este proyecto es replicar en modo mobile a Mercado Libre con el fin de poner en práctica los concepto aprendidos al momento de Html , Css y Javascript.
