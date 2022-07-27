@@ -1,18 +1,17 @@
 @import url(general.css);
+@import url(normalize.css);
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /* HEADER */
 .logo {
-  padding: 20px;
+  margin-top: 5px;
+  width: 50%;
+  padding-right: 5px;
 }
 
 .header__texto {
   font-size: var(--tamaño-cuerposDeTexto);
-}
-
-.header_buscador {
   padding: 10px;
-  text-align: center;
 }
 
 ul.header__texto {
@@ -21,10 +20,11 @@ ul.header__texto {
 
 .header_cuotas_sin_tarjeta {
   text-align: center;
+  width: 100%;
 }
 
 .header__boton__burger-menu {
-  text-align: center;
+  padding: 10px;
 }
 
 .header__boton__burger-menu form button {
@@ -36,7 +36,7 @@ ul.header__texto {
 
 .header__boton__burger-menu form button i {
   color: var(--color-blanco);
-  margin: 5px;
+  padding: 7px;
 }
 
 /* MAIN */
@@ -63,18 +63,81 @@ ul.header__texto {
   text-align: left;
 }
 
+@media (max-width:768px) {
+  .header_buscador {
+    margin-top: 5px;
+    width: 50%;
+    display: flex;
+    background-color: var(--color-blanco);
+    height: 30px;
+    border-radius: 4px;
+    padding-left: 5px;
+
+  }
+
+  .header_buscador input {
+    width: 85%;
+    border: none;
+    background-color: var(--color-blanco);
+    outline: none;
+  }
+
+  .header_buscador input::placeholder {
+    font-size: 13px;
+  }
+
+  .header_buscador button {
+    width: 10%;
+    border: none;
+    background-color: var(--color-blanco);
+    font-size: 12px;
+  }
+
+  .header_buscador button i {
+    color: var(--color-grisOscuro);
+  }
+}
+
 /*TABLET*/
-@media (min-width:768px) and (max-width:1024px) {
+@media (min-width:768px) {
+  .logo {
+    width: 33%;
+  }
+
+  .header_buscador {
+    width: 33%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+  }
+
+  .header_buscador input {
+    width: 87%;
+  }
+
+  .header_buscador button {
+    width: 10%;
+  }
+
+  .header_cuotas_sin_tarjeta {
+    width: 33%;
+  }
+
   .header__boton__burger-menu {
     display: none;
   }
 
-  header ul {
-    display: block;
+  .header__texto {
+    padding: 0;
   }
 
-  article {
-    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  /* NAV */
+  .nav__options,
+  .nav__user {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
   }
 }
 
