@@ -11,7 +11,7 @@
 :root {
   --font: 'Roboto';
   --tamaño-cuerposDeTexto: 12px;
-  --taamaño-titulares: 24px;
+  --tamaño-titulares: 24px;
   --tamaño-precios: 18px;
   --tamaño-descuentos: 16px;
   --tamaño-descripciones: 16px;
@@ -69,6 +69,9 @@ img {
 h2 {
   font-family: var(--font);
   font-size: var(--tamaño-titulares);
+  color: var(--color-grisOscuro);
+  font-weight: bold;
+  padding: 20px 0 20px 0;
 }
 
 article {
@@ -124,6 +127,10 @@ footer section p {
     justify-content: space-between;
   }
 
+  header ul {
+    display: block;
+  }
+
   nav {
     display: flex;
     width: 100%;
@@ -132,11 +139,13 @@ footer section p {
     margin-top: 30px;
   }
 
-  header ul {
-    display: block;
+  /* MAIN */
+  main {
+    display: flex;
   }
 
   article {
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    margin: 0;
   }
 }
