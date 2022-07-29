@@ -44,7 +44,85 @@
       </div>
     </nav>
   </header>
-  <main>
-    Holaaa
+  <main class="register__main__container">
+    <form class="register__main__container__form" action="/register" name="register" method="POST">
+      <h2 id="register-titulo-registrate">REGISTRATE</h2>
+      <div class="register__main__form-container-datosDeUsuario">
+        <label for="datos">Datos del Usuario</label>
+        <div class="register__main__form-datosDeUsuario">
+          <input type="text" name="name" placeholder="Nombre y Apellido" required>
+          <span>*Este campo es obligatorio</span>
+        </div>
+        <div class="register__main__form-datosDeUsuario">
+          <input type="text" name="user" placeholder="Nombre de Usuario" required>
+          <span>*Este campo es obligatorio</span>
+        </div>
+        <div class="register__main__form-datosDeUsuario">
+          <input type="mail" name="mail" id="" placeholder="e-mail" required>
+          <span>*Este campo es obligatorio</span>
+        </div>
+      </div>
+
+      <div class="register__main__form-container-datosPersonales">
+        <label for="">Datos personales</label>
+        <div class="register__main__form-datosPersonales">
+          <input type="date" name="nacimiento" id="register-fecha-nacimiento">
+        </div>
+        <div class="register__main__form-datosPersonales">
+          <input type="text" name="domicilio" placeholder="Domicilio">
+        </div>
+      </div>
+
+      <div class="register__main__form-container-perfilDeCuenta">
+        <label for="" class="">Perfil De Cuenta</label>
+        <div class="register__main__form-perfilDeCuenta">
+          <label for="comprador">comprador</label>
+          <input type="radio" name="perfil" id="comprador" value="comprador" checked>
+        </div>
+        <div class="register__main__form-perfilDeCuenta">
+          <label for="vendedor">vendedor</label>
+          <input type="radio" name="perfil" id="vendedor" value="vendedor">
+        </div>
+
+
+      </div>
+
+      <div class="">
+
+        <label for="" class="">Intereses</label>
+        <div><input type="checkbox" name="" id="" value="Electro">Electro</div>
+        <div><input type="checkbox" name="" id="" value="Moda">Mascotas</div>
+        <div><input type="checkbox" name="" id="" value="Celulares">Celulares</div>
+        <div><input type="checkbox" name="" id="" value="Electro">Vida Sana</div>
+        <div><input type="checkbox" name="" id="" value="Moda">Moda</div>
+        <div><input type="checkbox" name="" id="" value="Celulares">Gaming</div>
+
+      </div>
+
+
+      <div class="">
+
+        <label class="" for="">Foto De Perfil</label>
+        <input type="file" name="" id="">
+
+      </div>
+
+      <div class="">
+
+        <button class="" type="submit">Borrar</button>
+        <button class="" type="submit">Enviar</button>
+
+      </div>
+
+    </form>
   </main>
 </body>
+
+<!-- <div class="register__main__form-datosDeUsuario">
+  <input type="password" name="password" placeholder="Contraseña" id="" required>
+  <span>*Este campo es obligatorio</span>
+</div>
+<div class="register__main__form-datosDeUsuario">
+  <input type="password" name="password" placeholder="Repita su contraseña" id="" required>
+  <span>*Este campo es obligatorio</span>
+</div> -->
