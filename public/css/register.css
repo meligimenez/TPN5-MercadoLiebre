@@ -112,3 +112,20 @@
   text-decoration: none;
   color: var(--color-blanco);
 }
+
+@media (min-width: 650px) {
+  .register__main__container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .register__main__container__form {
+    width: 80%;
+  }
+}
+
+@media (min-width:800px) {
+  .register__main__container__form {
+    width: 60%;
+  }
+}
