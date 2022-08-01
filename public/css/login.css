@@ -1,2 +1,53 @@
 @import url(general.css);
 @import url(index.css);
+
+#login-titulo-ingresa {
+  padding: 0;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.login__main__container-form-ingresa,
+.login__main__form-ingresa,
+.login__main__form-container-botones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.login__main__form-ingresa input {
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  width: 80%;
+  font-size: 15px;
+}
+
+.login__main__form-ingresa span {
+  color: red;
+  font-size: 10px;
+  width: 80%;
+  text-align: initial;
+  font-weight: lighter;
+}
+
+.login__main__form-container-botones button {
+  background-color: var(--color-celeste);
+  color: var(--color-blanco);
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  margin-top: 10px;
+  width: 80%;
+  font-size: var(--tamaño-cuerposDeTexto);
+}
+
+.login__main__form-botones a {
+  text-decoration: none;
+  color: var(--color-blanco);
+}

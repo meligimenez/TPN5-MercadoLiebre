@@ -110,6 +110,5 @@
 
 .register__main__form-botones a {
   text-decoration: none;
-  color: black;
   color: var(--color-blanco);
 }
