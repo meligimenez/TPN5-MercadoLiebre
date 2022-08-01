@@ -1,39 +1,48 @@
 @import url(general.css);
 @import url(index.css);
 
-/* PARTE DATOS DE USUARIO */
-.register__main__form-container-datosDeUsuario,
-.register__main__form-datosDeUsuario,
-.register__main__form-container-datosPersonales,
-.register__main__form-datosPersonales,
-.register__main__form-container-perfilDeCuenta {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
-  margin: 5px;
-}
-
-.register__main__form-container-datosDeUsuario {
-  margin: 15px 0;
-}
-
 #register-titulo-registrate {
   padding: 0;
   margin-top: 10px;
   text-align: center;
 }
 
+.register__main__form-container-datosDeUsuario,
+.register__main__form-datosDeUsuario,
+.register__main__form-container-datosPersonales,
+.register__main__form-datosPersonales,
+.register__main__form-container-perfilDeCuenta,
+.register__main__form-container-foto,
+.register__main__form-container-botones,
+.register__main__form-container-contrasena,
+.register__main__form-contrasena {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.register__main__form-container-datosDeUsuario {
+  margin: 15px 0;
+}
+
 .register__main__form-container-datosDeUsuario label,
 .register__main__form-container-datosPersonales label,
-.register__main__form-container-perfilDeCuenta label {
+.register__main__form-container-perfilDeCuenta label,
+.register__main__form-container-intereses label,
+.register__main__form-container-foto label,
+.register__main__form-container-contrasena label {
   width: 100%;
   font-size: var(--tamaño-descripciones);
   text-transform: uppercase;
+  margin: 5px;
 }
 
 .register__main__form-datosDeUsuario input,
-.register__main__form-datosPersonales input {
+.register__main__form-datosPersonales input,
+.register__main__form-foto input,
+.register__main__form-contrasena input {
   border-radius: 5px;
   outline: none;
   border: none;
@@ -47,7 +56,8 @@
   width: 100%;
 }
 
-.register__main__form-datosDeUsuario span {
+.register__main__form-datosDeUsuario span,
+.register__main__form-contrasena span {
   color: red;
   font-size: 10px;
   width: 80%;
@@ -59,22 +69,47 @@
   color: var(--color-grisOscuro);
 }
 
-/* Perfil */
-.register__main__form-perfilDeCuenta {
+.register__main__form-container-intereses {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 5px;
+}
+
+.register__main__form-perfilDeCuenta,
+.register__main__form-intereses {
   display: flex;
   flex-direction: row-reverse;
   width: 50%;
   justify-content: center;
   margin: 10px 0;
+  text-align: left;
 }
 
-.register__main__form-perfilDeCuenta label {
+.register__main__form-perfilDeCuenta label,
+.register__main__form-intereses label {
   width: 50%;
   font-size: var(--tamaño-cuerposDeTexto);
+  margin: 10px 0 0 0;
 }
 
-.register__main__form-perfilDeCuenta input {
+.register__main__form-perfilDeCuenta input,
+.register__main__form-intereses input {
+  margin-top: 10px;
   width: 20%;
 }
 
-/* INTERESES */
+.register__main__form-container-botones button {
+  width: 45%;
+  margin: 0 5px;
+  background-color: var(--color-celeste);
+  border: none;
+  padding: 5px;
+  color: var(--color-blanco);
+}
+
+.register__main__form-botones a {
+  text-decoration: none;
+  color: black;
+  color: var(--color-blanco);
+}

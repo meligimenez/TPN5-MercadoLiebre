@@ -34,7 +34,7 @@
       </ul>
       <ul type="none" class="nav__user">
         <li><a href="/register">Creá tu cuenta<i class="fa-regular fa-id-card"></i></a></li>
-        <li><a href="#">Ingresá<i class="fa-solid fa-arrow-right-to-bracket"></i></a></li>
+        <li><a href="/login">Ingresá<i class="fa-solid fa-arrow-right-to-bracket"></i></a></li>
         <li><a href="#">Mis compras<i class="fa-solid fa-basket-shopping"></i></a></li>
       </ul>
       <div class="header__boton__burger-menu">
@@ -62,7 +62,6 @@
           <span>*Este campo es obligatorio</span>
         </div>
       </div>
-
       <div class="register__main__form-container-datosPersonales">
         <label for="">Datos personales</label>
         <div class="register__main__form-datosPersonales">
@@ -72,7 +71,6 @@
           <input type="text" name="domicilio" placeholder="Domicilio">
         </div>
       </div>
-
       <div class="register__main__form-container-perfilDeCuenta">
         <label for="" class="">Perfil De Cuenta</label>
         <div class="register__main__form-perfilDeCuenta">
@@ -83,46 +81,51 @@
           <label for="vendedor">vendedor</label>
           <input type="radio" name="perfil" id="vendedor" value="vendedor">
         </div>
-
-
       </div>
-
-      <div class="">
-
+      <div class="register__main__form-container-intereses">
         <label for="" class="">Intereses</label>
-        <div><input type="checkbox" name="" id="" value="Electro">Electro</div>
-        <div><input type="checkbox" name="" id="" value="Moda">Mascotas</div>
-        <div><input type="checkbox" name="" id="" value="Celulares">Celulares</div>
-        <div><input type="checkbox" name="" id="" value="Electro">Vida Sana</div>
-        <div><input type="checkbox" name="" id="" value="Moda">Moda</div>
-        <div><input type="checkbox" name="" id="" value="Celulares">Gaming</div>
-
+        <div class="register__main__form-intereses">
+          <label for="electro">Electro</label>
+          <input type="checkbox" name="electro" id="electro" value="electro">
+        </div>
+        <div class="register__main__form-intereses">
+          <label for="moda">Moda</label>
+          <input type="checkbox" name="moda" id="moda" value="moda">
+        </div>
+        <div class="register__main__form-intereses">
+          <label for="hogas">Hogar</label>
+          <input type="checkbox" name="hogar" id="hogar" value="hogar">
+        </div>
+        <div class="register__main__form-intereses">
+          <label for="jugueteria">Juguetería</label>
+          <input type="checkbox" name="jugueteria" id="jugueteria" value="jugueteria">
+        </div>
+        <div class="register__main__form-intereses">
+          <label for="vidaSana">Vida Sana</label>
+          <input type="checkbox" name="vidaSana" id="vidaSana" value="vidaSana">
+        </div>
       </div>
-
-
-      <div class="">
-
+      <div class="register__main__form-container-contrasena">
+        <label>Contraseña</label>
+        <div class="register__main__form-contrasena">
+          <input type="password" name="password" placeholder="Contraseña" required>
+          <span>*Este campo es obligatorio</span>
+        </div>
+        <div class="register__main__form-contrasena">
+          <input type="password" name="password" placeholder="Confirmar contraseña" required>
+          <span>*Este campo es obligatorio</span>
+        </div>
+      </div>
+      <div class="register__main__form-container-foto">
         <label class="" for="">Foto De Perfil</label>
-        <input type="file" name="" id="">
-
+        <div class="register__main__form-foto">
+          <input type="file" name="archivo" id="">
+        </div>
       </div>
-
-      <div class="">
-
-        <button class="" type="submit">Borrar</button>
-        <button class="" type="submit">Enviar</button>
-
+      <div class="register__main__form-container-botones">
+        <button class="register__main__form-botones" type="reset">Borrar</button>
+        <button class="register__main__form-botones" type="submit"><a href="/">Enviar</a></button>
       </div>
-
     </form>
   </main>
 </body>
-
-<!-- <div class="register__main__form-datosDeUsuario">
-  <input type="password" name="password" placeholder="Contraseña" id="" required>
-  <span>*Este campo es obligatorio</span>
-</div>
-<div class="register__main__form-datosDeUsuario">
-  <input type="password" name="password" placeholder="Repita su contraseña" id="" required>
-  <span>*Este campo es obligatorio</span>
-</div> -->
