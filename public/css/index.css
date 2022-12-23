@@ -8,6 +8,10 @@
   padding-right: 5px;
 }
 
+.header_buscador-container {
+  width: 50%;
+}
+
 .header__texto {
   font-size: var(--tamaño-cuerposDeTexto);
   padding: 10px;
@@ -65,13 +69,16 @@ ul.header__texto {
 @media (max-width:768px) {
   .header_buscador {
     margin-top: 5px;
-    width: 50%;
     display: flex;
     background-color: var(--color-blanco);
     height: 30px;
     border-radius: 4px;
     padding-left: 5px;
 
+  }
+
+  .header_buscador form {
+    width: 100%;
   }
 
   .header_buscador input {
@@ -103,8 +110,11 @@ ul.header__texto {
     width: 33%;
   }
 
-  .header_buscador {
+  .header_buscador-container {
     width: 33%;
+  }
+
+  .header_buscador {
     display: flex;
     justify-content: space-between;
     padding: 5px;

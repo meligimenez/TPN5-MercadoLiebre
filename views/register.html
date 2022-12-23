@@ -17,9 +17,11 @@
     <div class="logo">
       <img class="imagen_logo" src="/img/logoMercadoLiebre.svg" />
     </div>
-    <div class="header_buscador">
-      <input type="text" placeholder="Buscar productos, marcas">
-      <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    <div class="header_buscador-container">
+      <form class="header_buscador" action="/search" name="search" method="POST">
+        <input type="text" placeholder="Buscar productos, marcas">
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+      </form>
     </div>
     <div class="header_cuotas_sin_tarjeta">
       <p class="header__texto"><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito
