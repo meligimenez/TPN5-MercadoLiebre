@@ -1,22 +1,36 @@
 @import url(general.css);
 @import url(index.css);
 
+.login__main {
+  display: flex;
+  justify-content: center;
+}
+
+.login__main__container-form-ingresa {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  width: 500px;
+  margin: 30px 0;
+}
+
+.login__main__form-ingresa {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0;
+  width: 100%;
+}
+
+
 #login-titulo-ingresa {
   padding: 0;
   margin-top: 10px;
   text-align: center;
 }
 
-.login__main__container-form-ingresa,
-.login__main__form-ingresa,
-.login__main__form-container-botones {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  text-align: center;
-  margin: 10px 0;
-  width: 100%;
-}
+
 
 .login__main__form-ingresa input {
   border-radius: 5px;
@@ -36,15 +50,20 @@
   font-weight: lighter;
 }
 
+.login__main__form-container-botones {
+  width: 20%;
+}
+
 .login__main__form-container-botones button {
   background-color: var(--color-celeste);
   color: var(--color-blanco);
   border-radius: 5px;
   border: none;
-  padding: 5px;
-  margin-top: 10px;
-  width: 80%;
+  padding: 8px 0;
   font-size: var(--tamaño-cuerposDeTexto);
+  margin: 0;
+  width: 100%;
+  text-transform: uppercase;
 }
 
 .login__main__form-botones a {
