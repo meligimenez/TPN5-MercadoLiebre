@@ -108,13 +108,26 @@ article div i {
 
 /* FOOTER */
 footer {
-  background-color: var(--color-amarillo);
+  background-color: var(--color-blanco);
   text-align: center;
   padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  font-size: var(--tamaño-cuerposDeTexto);
+}
+
+footer section {
+  width: 80%;
 }
 
 footer section div {
   color: var(--color-celeste);
+}
+
+footer section:hover div {
+  color: var(--color-amarillo);
 }
 
 footer section h4 {
@@ -122,7 +135,7 @@ footer section h4 {
 }
 
 footer section p {
-  color: var(--color-grisClaro);
+  color: var(--color-grisOscuro);
 }
 
 @media (min-width:768px) {
@@ -149,5 +162,21 @@ footer section p {
 
   article {
     margin: 0;
+  }
+
+  footer {
+    font-size: 16px;
+    gap: 20px;
+  }
+
+  footer section {
+    width: 60%;
+  }
+
+}
+
+@media (min-width:1024px) {
+  footer section {
+    width: 32%;
   }
 }

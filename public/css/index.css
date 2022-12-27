@@ -87,9 +87,14 @@ article:hover {
 }
 
 /* FOOTER */
+
 .footer_copyrigth {
-  text-align: left;
+  text-align: center;
+  width: 100%;
+  margin-top: 15px;
+  font-size: 10px;
 }
+
 
 @media (max-width:768px) {
   .header_buscador {
@@ -127,6 +132,7 @@ article:hover {
   .header_buscador button i {
     color: var(--color-grisOscuro);
   }
+
 }
 
 /*TABLET*/
@@ -193,6 +199,11 @@ article:hover {
   .ultima__vista-producto,
   .ofertas-producto {
     width: 45%;
+  }
+
+  /* FOOTER */
+  .footer_copyrigth {
+    font-size: 14px;
   }
 }
 
