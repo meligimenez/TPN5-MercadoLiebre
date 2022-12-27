@@ -54,6 +54,11 @@
   width: 20%;
 }
 
+.login__main__form-container-botones button:hover {
+  cursor: pointer;
+  background-color: #0022AA;
+}
+
 .login__main__form-container-botones button {
   background-color: var(--color-celeste);
   color: var(--color-blanco);
